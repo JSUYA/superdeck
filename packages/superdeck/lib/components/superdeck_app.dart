@@ -42,7 +42,7 @@ class SuperDeckApp extends HookWidget {
     await Future.wait([
       SuperDeckController.initialize(),
       SyntaxHighlight.initialize(),
-      _initializeWindowManager(),
+      // _initializeWindowManager(),
     ]);
   }
 

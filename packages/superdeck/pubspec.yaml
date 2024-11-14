@@ -25,7 +25,10 @@ dependencies:
   go_router: ^14.1.4
   file_picker: ^8.0.7
   path_provider: ^2.1.4
+  path_provider_tizen: ^2.2.0
   url_launcher: ^6.2.6
+  # url_launcher: ^6.1.0
+  url_launcher_tizen: ^2.1.2
   mix: ^1.4.4
   mix_annotations: ^0.2.1
   flutter_markdown: ^0.7.3
@@ -42,7 +45,9 @@ dependencies:
   image_picker: ^1.1.2
   open_filex: ^4.5.0
   google_generative_ai: ^0.4.4
-  
+  sqflite: ^2.3.0
+  sqflite_tizen: ^0.1.3
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -54,8 +59,7 @@ dev_dependencies:
   mix_generator: ^0.2.2
   custom_lint: ^0.6.4
   mix_lint: ^0.1.1
-  
-  
+
 flutter:
   assets:
     - grammars/

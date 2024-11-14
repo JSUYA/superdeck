@@ -17,11 +17,9 @@ class SDButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return RxButton(
+    return TextButton.icon(
       onPressed: onPressed,
-      type: ButtonVariant.surface,
-      iconLeft: icon,
-      label: label,
+      label: Text(label),
     );
   }
 }
@@ -41,11 +39,9 @@ class SDButtonSolid extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return RxButton(
+    return TextButton.icon(
       onPressed: onPressed,
-      type: ButtonVariant.solid,
-      iconLeft: icon,
-      label: label,
+      label: Text(label),
     );
   }
 }
@@ -65,11 +61,9 @@ class SDOutlinedButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return RxButton(
+    return TextButton.icon(
       onPressed: onPressed,
-      type: ButtonVariant.outline,
-      iconLeft: icon,
-      label: label,
+      label: Text(label),
     );
   }
 }
@@ -89,12 +83,9 @@ class SDIconButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return RxButton(
+    return TextButton.icon(
       onPressed: onPressed,
-      type: selected ? ButtonVariant.surface : ButtonVariant.ghost,
-      iconLeft: icon,
-      size: ButtonSize.large,
-      label: '',
+      label: const Text(''),
     );
   }
 }

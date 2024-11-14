@@ -10,7 +10,8 @@ import '../helpers/constants.dart';
 import '../helpers/watcher.dart';
 import '../models/reference_model.dart';
 
-final _assetDir = Directory(p.join('.superdeck'));
+final _assetDir = Directory(
+    p.join('/opt/usr/apps/com.example.example/res/flutter_assets/.superdeck'));
 final _slideRef = File(p.join(_assetDir.path, 'slides.json'));
 final _generatedDir = Directory(p.join(_assetDir.path, 'generated'));
 final _markdown = File('slides.md');
